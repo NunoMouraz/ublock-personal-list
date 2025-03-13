@@ -358,6 +358,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Nbamemes/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/tennis/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CollegeBasketball/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NFCNorthMemeWar/"]
 
 open.spotify.com##[data-testid="grid-container"] [role="presentation"]:has([title*=español])
 open.spotify.com##[data-testid="grid-container"] [role="presentation"]:has([title*=Español])
