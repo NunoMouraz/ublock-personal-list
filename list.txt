@@ -8,7 +8,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/OpenAI/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/StableDiffusion/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/aivideo/"]
-# finance
+# financee
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AusFinance"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CryptoCurrency/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CryptoMoonShots"]
@@ -22,8 +22,9 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/stocks"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Superstonk/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wallstreetbets/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/XGramatikInsights"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Finanzen"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/XGramatikInsights/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Finanzen/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DeepFuckingValue/"]
 # games
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/arknights/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Brawlstars/"]
