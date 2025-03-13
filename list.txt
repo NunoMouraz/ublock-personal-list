@@ -1,6 +1,6 @@
 ! Title: Personal Blocklist
 ! Expires: 1 day
-! Description: 
+! Description:  
 
 # ai
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ChatGPT/"]
