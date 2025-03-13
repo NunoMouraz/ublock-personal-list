@@ -181,6 +181,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/WorkReform/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MurderedByAOC/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Presidents/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/scotus/"]
 # religion
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/atheism/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/exmuslim/"]
