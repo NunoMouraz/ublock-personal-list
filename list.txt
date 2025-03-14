@@ -168,6 +168,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/milwaukee/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/saopaulo/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SaltLakeCity/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/nova/"]
 # politics
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AOC/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Conservative/"]
