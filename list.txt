@@ -302,6 +302,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/whatthefrockk"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CBSE/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kuttichevuru/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CanadianActresses/"]
 # sports
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/49ers"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Barca/"]
