@@ -173,6 +173,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Tokyo/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Slovenia/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/czech/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/karachi/"]
 # politics
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AOC/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Conservative/"]
