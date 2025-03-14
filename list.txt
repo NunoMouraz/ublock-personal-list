@@ -26,6 +26,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/XGramatikInsights/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Finanzen/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DeepFuckingValue/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/WallStreetbetsELITE/"]
 # games
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/arknights/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Brawlstars/"]
