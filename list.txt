@@ -301,6 +301,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/marvelmemes"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/whatthefrockk"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CBSE/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kuttichevuru/"]
 # sports
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/49ers"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Barca/"]
