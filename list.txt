@@ -67,6 +67,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/houkai3rd/"]
 # places
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Albany"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Turkey"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/alberta/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/anchorage"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/argentina/"]
