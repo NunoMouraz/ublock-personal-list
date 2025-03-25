@@ -176,6 +176,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/czech/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/karachi/"]
 # politics
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/QuiverQuantitative/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AOC/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Conservative/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/conservativeterrorism/"]
