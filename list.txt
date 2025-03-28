@@ -211,6 +211,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/seniorkitties/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HardVideos/"]
 # social
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndiasGotLatent"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AskIndianWomen"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/StupidMedia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianFashionAddicts"]
