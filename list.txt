@@ -211,6 +211,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/seniorkitties/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HardVideos/"]
 # social
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SabrinaCarpenter"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/youtubeindia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MandirGang"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ShopeePH"]
