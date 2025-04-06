@@ -390,9 +390,11 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NUFC/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mlb/"]
 
+#annoyances
 open.spotify.com##[data-testid="grid-container"] [role="presentation"]:has([title*=español])
 open.spotify.com##[data-testid="grid-container"] [role="presentation"]:has([title*=Español])
 open.spotify.com##[data-testid="grid-container"] [role="presentation"]:has([title*=ESPAÑOL])
 open.spotify.com##[data-testid="grid-container"] [role="presentation"]:has([title*=latino])
 open.spotify.com##[data-testid="grid-container"] [role="presentation"]:has([title*=Latino])
 open.spotify.com##[data-testid="grid-container"] [role="presentation"]:has([title*=LATINO])
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:contains(Members only)
