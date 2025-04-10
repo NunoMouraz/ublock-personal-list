@@ -9,6 +9,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/StableDiffusion/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/aivideo/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AIArtwork/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/singularity/"]
 # finance
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AusFinance"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CryptoCurrency/"]
