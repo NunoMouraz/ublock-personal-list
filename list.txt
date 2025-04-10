@@ -69,6 +69,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ArlecchinoMains/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/houkai3rd/"]
 # places
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/london"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Finland"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/gujarat"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/cincinnati"]
