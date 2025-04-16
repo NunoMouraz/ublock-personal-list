@@ -218,6 +218,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/seniorkitties/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HardVideos/"]
 # social
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ivynash"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ZyadaKuchNai"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/lydiavioletofficial"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/KatDennings"]
