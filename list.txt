@@ -219,6 +219,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/seniorkitties/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HardVideos/"]
 # social
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/jihyo"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mylittlepony"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ODTU"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ivynash"]
