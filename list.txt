@@ -221,6 +221,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/seniorkitties/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HardVideos/"]
 # social
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/hyderabad"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Polska"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/TwentiesIndia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indianmedschool"]
