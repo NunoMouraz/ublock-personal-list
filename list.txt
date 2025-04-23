@@ -221,6 +221,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/seniorkitties/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HardVideos/"]
 # social
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indianmedschool"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FashionforIndia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CarsAustralia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ThailandTourism"]
