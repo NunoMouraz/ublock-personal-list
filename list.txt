@@ -346,6 +346,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CelebBlackandWhites"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ParkJihyo"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/marvelmemes"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indianews"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/whatthefrockk"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CBSE/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kuttichevuru/"]
