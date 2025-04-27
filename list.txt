@@ -195,6 +195,8 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/karachi/"]
 # politics
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(Trump))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(Obama))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(Macron))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/QuiverQuantitative/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AOC/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Conservative/"]
