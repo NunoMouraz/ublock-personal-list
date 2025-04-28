@@ -193,6 +193,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Slovenia/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/czech/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/karachi/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Scotland"]
 # politics
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(Zelensky))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(Al Gore))
