@@ -202,6 +202,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="ti
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(Al Gore))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(MAGA))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(Trump))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(TRUMP))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(Obama))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(Macron))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/QuiverQuantitative/"]
