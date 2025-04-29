@@ -195,6 +195,9 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/karachi/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Scotland"]
 # politics
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(elections))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(election))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(Mark Carney))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(Zelensky))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(Al Gore))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(MAGA))
