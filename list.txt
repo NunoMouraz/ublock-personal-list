@@ -157,6 +157,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/pittsburgh"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/poland"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/PortlandOR"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Roumanie"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Quebec/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Romania"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Sacramento"]
