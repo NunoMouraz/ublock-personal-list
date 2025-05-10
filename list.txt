@@ -376,6 +376,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kuttichevuru/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CanadianActresses/"]
 # sports
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/nrl"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianCricket"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/chelseafc"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/RCB"]
