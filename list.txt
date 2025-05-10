@@ -308,6 +308,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ich_iel"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ik_ihe"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/india_tourism"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//adultingphwins"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indiameme/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indianbikes"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianGaming"]
