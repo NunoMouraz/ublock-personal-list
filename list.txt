@@ -134,6 +134,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Manitoba/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/massachusetts"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/melbourne"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/noida"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Miami/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Michigan/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/minnesota/"]
