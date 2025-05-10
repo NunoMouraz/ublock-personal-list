@@ -164,6 +164,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Sacramento"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/sandiego/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/sanfrancisco"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ahmedabad"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Seattle/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SeattleWA"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/serbia/"]
