@@ -251,6 +251,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ZyadaKuchNai"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/lydiavioletofficial"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/KatDennings"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/JammuandKashmir"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/lewishamilton"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/popculture"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wirklichgutefrage"]
