@@ -427,6 +427,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/realmadrid/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/reddevils/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/soccercirclejerk/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/denvernuggets"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SportingCP/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/sports/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SquaredCircle"]
