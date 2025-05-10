@@ -341,6 +341,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/playboycarti/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/popculturechat"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/popheadscirclejerk/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Kashmiri/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/rupaulsdragrace"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SaimanSays"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/shitpostBR"]
