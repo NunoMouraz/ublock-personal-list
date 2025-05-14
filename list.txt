@@ -13,6 +13,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/midjourney/"]
 # finance
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AusFinance"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wallstreetbetsGER"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CryptoCurrency/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CryptoMoonShots"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/economicCollapse/"]
