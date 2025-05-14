@@ -384,6 +384,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianCricket"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/chelseafc"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/RCB"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Mariners"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/49ers"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Barca/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/baseball/"]
