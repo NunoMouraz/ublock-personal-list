@@ -38,6 +38,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/arknights/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Brawlstars/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ClashRoyale/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/furinamains/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/EulaMains/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FatuiHQ/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FortNiteBR/"]
