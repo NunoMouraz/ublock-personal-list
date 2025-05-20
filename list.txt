@@ -85,6 +85,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/gujarat"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/cincinnati"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Calgary"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Bengaluru"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/maryland"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Cleveland"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/tampa"]
