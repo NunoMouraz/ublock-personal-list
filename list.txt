@@ -450,6 +450,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ufc/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/warriors"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wec/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AFL/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Wrasslin/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CalgaryFlames/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/PWHL/"]
