@@ -329,6 +329,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianStreetBets"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/PinoyVloggers"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianTeenagers"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ichbin40undSchwurbler"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indiasocial/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndiaSpeaks"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndiaTax/"]
