@@ -149,6 +149,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mumbai"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/nederlands"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/newjersey"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kansascity"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/newyork"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/newzealand/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NorthCarolina"]
