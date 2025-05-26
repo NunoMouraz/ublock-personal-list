@@ -328,6 +328,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indianmemer/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianMeyMeys/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianPets"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/VeganDE"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indianrailways/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianStreetBets"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/PinoyVloggers"]
