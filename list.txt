@@ -263,6 +263,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/KatDennings"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/JammuandKashmir"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BravoRealHousewives"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kollywood"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/lewishamilton"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/popculture"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wirklichgutefrage"]
