@@ -413,6 +413,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/coys/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Cricket"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CricketShitpost/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Championship/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DeathrattlePorn/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/detroitlions"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/fcporto/"]
