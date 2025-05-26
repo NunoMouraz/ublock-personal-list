@@ -389,6 +389,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kuttichevuru/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CanadianActresses/"]
 # sports
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NYKnicks"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NYYankees"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/nrl"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NBAEastMemeWar"]
