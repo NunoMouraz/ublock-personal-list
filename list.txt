@@ -305,6 +305,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/developersIndia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/dokibird"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/EhBuddyHoser/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianHistory/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Eminem/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/EmmaWatson"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Fauxmoi/"]
