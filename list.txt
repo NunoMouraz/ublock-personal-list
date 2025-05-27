@@ -241,6 +241,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mahabharata/"]
 # sad
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Wellthatsucks/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DogAdvice/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CATHELP/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/instant_regret/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/OldManDog/"]
