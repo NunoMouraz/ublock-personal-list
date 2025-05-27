@@ -189,6 +189,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/unitedstatesofindia/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Utah"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/vancouver"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/southafrica"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Virginia/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/washdc/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/waterloo"]
