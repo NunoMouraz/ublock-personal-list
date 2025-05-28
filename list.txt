@@ -247,6 +247,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/instant_regret/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/OldManDog/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SeniorCats/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GuyCry/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/seniordogs/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/seniorkitties/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HardVideos/"]
