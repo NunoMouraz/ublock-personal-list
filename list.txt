@@ -336,6 +336,8 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/PHBookClub"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianGaming"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SecretsOfMormonWives"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianStockMarket"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Kantenhausen"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indianmemer/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianMeyMeys/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/makati/"]
