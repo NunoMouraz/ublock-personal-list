@@ -352,6 +352,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indiasocial/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MayNagChat/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndiaSpeaks"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/katseye"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndiaTax/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ITookAPicturePH"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/JEENEETards"]
