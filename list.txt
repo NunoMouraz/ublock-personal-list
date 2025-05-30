@@ -119,6 +119,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/europe/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/florida/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/france"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/navimumbai"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Georgia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/greenland"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/gurgaon"]
