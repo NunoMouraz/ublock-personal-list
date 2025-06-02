@@ -306,6 +306,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BollywoodMusic"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BrexitMemes/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Btechtards"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Falschparker"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CarsIndia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CasualIreland"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CasualUK"]
