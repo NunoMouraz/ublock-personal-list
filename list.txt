@@ -446,6 +446,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DeathrattlePorn/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/detroitlions"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/fcporto/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/actualcricketshitpost/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/formula1/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/formuladank/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/futebol"]
