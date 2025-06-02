@@ -422,6 +422,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/INDYCAR"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NYYankees"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/nrl"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AEWOfficial"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NBAEastMemeWar"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianCricket"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/chelseafc"]
