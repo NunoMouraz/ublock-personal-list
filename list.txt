@@ -186,6 +186,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/sweden"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/texas/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Thailand/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/nashville/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/toronto"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/tylertx/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/unitedkingdom/"]
