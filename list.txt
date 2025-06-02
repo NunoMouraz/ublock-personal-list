@@ -342,6 +342,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/deutschememes/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indianbikes"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/antitrampo"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SneakersIndia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/PHBookClub"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianGaming"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SecretsOfMormonWives"]
