@@ -508,4 +508,5 @@ open.spotify.com##[data-testid="infinite-scroll-list"] [role="presentation"]>div
 open.spotify.com##[data-testid="infinite-scroll-list"] [role="presentation"]>div:has([title*=LATINO])
 open.spotify.com##[data-testid="podcasts-search-entity-shelf"]
 open.spotify.com##[data-testid="episodes-search-entity-shelf"]
+open.spotify.com##[data-encore-id="card"]:contains("By Spotify")
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:contains(Members only)
