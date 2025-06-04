@@ -337,6 +337,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GreatBritishMemes/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Gulong/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HayleyAtwell"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/newsPH"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IASIP"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ich_iel"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ik_ihe"]
