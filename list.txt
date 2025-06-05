@@ -107,6 +107,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Rajasthan/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/brasil/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/britishcolumbia"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Columbus"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Brooklyn/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/California/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/canada/"]
