@@ -270,6 +270,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FashionforIndia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CarsAustralia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/luftablassen"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/actu_memes"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ThailandTourism"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/PHMotorcycles"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BlackPeopleTwitter"]
