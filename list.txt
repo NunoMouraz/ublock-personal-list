@@ -80,6 +80,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 # places
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ottawa"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/england"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/northernireland"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/vegas"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/pune"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/london"]
