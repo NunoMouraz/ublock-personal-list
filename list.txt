@@ -319,6 +319,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kpop_uncensored/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/bollywoodmemes/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/adriaarjona/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/WeTheFifth/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BollywoodMusic"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BrexitMemes/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Btechtards"]
