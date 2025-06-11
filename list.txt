@@ -460,6 +460,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/buffalobills"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/canucks/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CFB/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ussoccer/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/cfbmemes/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Commanders/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/coys/"]
