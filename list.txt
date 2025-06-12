@@ -128,6 +128,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Georgia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/greenland"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/gurgaon"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LatinoPeopleTwitter"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/hyderabad"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/halifax"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/houston/"]
