@@ -201,6 +201,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Virginia/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/washdc/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/waterloo"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Spokane"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wisconsin/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/alaska/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SanDiegan/"]
