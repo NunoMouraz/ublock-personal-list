@@ -96,6 +96,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/brisbane"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Omaha"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Albany"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LostPlacesDeutschland"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Turkey"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/alberta/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/anchorage"]
