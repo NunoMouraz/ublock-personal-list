@@ -271,6 +271,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/seniorkitties/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HardVideos/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ICE_Raids/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/martialarts/"]
 # social
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Polska"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/TwentiesIndia"]
