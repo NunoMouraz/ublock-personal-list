@@ -273,6 +273,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ICE_Raids/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/martialarts/"]
 # social
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Suomi"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Polska"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/TwentiesIndia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indianmedschool"]
