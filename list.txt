@@ -32,6 +32,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DeepFuckingValue/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/WallStreetbetsELITE/"]
 # games
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/StarRailStation/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/TopazMainsHSR/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ZZZ_Romance/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/YelanMains/"]
