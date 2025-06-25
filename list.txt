@@ -275,6 +275,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/martialarts/"]
 # social
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FameDump"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GoodAssSub"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AskSerbia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Suomi"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Polska"]
