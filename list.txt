@@ -261,6 +261,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="ti
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(ICE ))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(deport))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(fascism))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(dragged))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Wellthatsucks/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DogAdvice/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CATHELP/"]
