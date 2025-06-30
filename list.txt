@@ -147,6 +147,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Kerala/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LosAngeles/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Maine"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/uttarpradesh"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/malaysia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Manitoba/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/massachusetts"]
