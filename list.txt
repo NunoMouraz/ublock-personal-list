@@ -258,6 +258,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mahabharata/"]
 # sad
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(passed away))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(you will never be forgotten))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains( ICE ))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(ICE ))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(deport))
