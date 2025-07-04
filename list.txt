@@ -258,6 +258,8 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Presidents/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/scotus/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/antitrump/"]
+x.com##article:has([data-testid="User-Name"]:has-text(/politics/i))
+x.com##article:has([data-testid="User-Name"]:has-text(/MAGA/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/Joe Biden/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/Donald Trump/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/Trump/i))
@@ -265,8 +267,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/Hunter Biden/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/President Biden/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/Justin Trudeau/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/Zelensky/i))
-x.com##article:has([data-testid="User-Name"]:has-text(/politics/i))
-x.com##article:has([data-testid="User-Name"]:has-text(/MAGA/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/republican/i))
 # religion
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/atheism/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/exmuslim/"]
