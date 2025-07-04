@@ -12,6 +12,8 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/singularity/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/midjourney/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//FacebookAIslop/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/OpenAI/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/ChatGPT/i))
 # finance
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AusFinance"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wallstreetbetsGER"]
