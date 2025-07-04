@@ -563,6 +563,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ManchesterUnited/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NUFC/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mlb/"]
+x.com##article:has([data-testid="User-Name"]:has-text(/AFL/i))
 x.com##article:has([data-testid="User-Name"]:has-text(/NBA/i))
 x.com##article:has([data-testid="User-Name"]:has-text(/Football/i))
 x.com##article:has([data-testid="User-Name"]:has-text(/UFC/i))
