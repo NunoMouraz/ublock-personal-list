@@ -16,6 +16,8 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="ti
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/ChatGPT/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/\bAI\b/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/AI[ -] Generate/i))
+# /ai
+
 # finance
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AusFinance"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wallstreetbetsGER"]
@@ -35,6 +37,8 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Finanzen/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DeepFuckingValue/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/WallStreetbetsELITE/"]
+# /finance
+
 # games
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/StarRailStation/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/TopazMainsHSR/"]
@@ -82,6 +86,8 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/RaidenMains/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ArlecchinoMains/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/houkai3rd/"]
+# /games
+
 # places
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/longbeach"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ottawa"]
@@ -226,6 +232,8 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/czech/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/karachi/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Scotland"]
+# /places
+
 # politics
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/elections?/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/conservatives?/i))
@@ -273,10 +281,15 @@ x.com##article:has([data-testid="tweetText"]:has-text(/republicans?/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/members? of congress/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/win back congress/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/politican win/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/if you voted/i))
+# /politics
+
 # religion
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/atheism/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/exmuslim/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mahabharata/"]
+# /religion
+
 # sad
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/passed away/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/you will never be forgotten/i))
@@ -303,6 +316,8 @@ x.com##article:has([data-testid="tweetText"]:has-text(/white people/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/black people/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/hispanic people/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/asian people/i))
+# /sad
+
 # social
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AskAGerman"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FameDump"]
@@ -484,6 +499,8 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CBSE/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kuttichevuru/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CanadianActresses/"]
+# /social
+
 # sports
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wnba"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NYKnicks"]
@@ -574,8 +591,9 @@ x.com##article:has([data-testid="tweetText"]:has-text(/@AthleticClub/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/Los Angeles Lakers/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/Barça/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/Bayern/i))
+# /sports
 
-#annoyances
+# annoyances
 open.spotify.com##[data-testid="infinite-scroll-list"] [role="presentation"]>div:has([title*=español])
 open.spotify.com##[data-testid="infinite-scroll-list"] [role="presentation"]>div:has([title*=Español])
 open.spotify.com##[data-testid="infinite-scroll-list"] [role="presentation"]>div:has([title*=ESPAÑOL])
@@ -595,3 +613,4 @@ x.com##[data-testid="GrokDrawer"]
 x.com##[aria-label="Grok"]
 x.com##[aria-label="Grok actions"]
 x.com##[aria-label="Enhance your post with Grok"]
+# /annoyances
