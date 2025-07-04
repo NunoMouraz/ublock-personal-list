@@ -595,6 +595,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/Barcelona/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/Juventus/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/Arsenal/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/AS Monaco/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/Liverpool/i))
 # /sports
 
 # annoyances
