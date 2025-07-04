@@ -566,6 +566,8 @@ x.com##article:has([data-testid="User-Name"]:has-text(/Liverpool FC/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/Real Madrid/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/@AthleticClub/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/Los Angeles Lakers/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/Barça/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/Bayern/i))
 
 #annoyances
 open.spotify.com##[data-testid="infinite-scroll-list"] [role="presentation"]>div:has([title*=español])
