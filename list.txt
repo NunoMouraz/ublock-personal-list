@@ -223,18 +223,17 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/karachi/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Scotland"]
 # politics
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(elections))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(election))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(Mark Carney))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(Zelensky))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(Al Gore))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(MAGA))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(Trump))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(TRUMP))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(Obama))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(Macron))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(Elon Musk))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(Governor))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/elections?/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/conservatives?/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Mark Carney/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Zelensky/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Al Gore/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/MAGA/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Trump/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Obama/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Macron/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Elon Musk/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Governors?/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/QuiverQuantitative/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FedJerk/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AOC/"]
