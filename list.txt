@@ -265,6 +265,8 @@ x.com##article:has-text(/Hunter Biden/i)
 x.com##article:has-text(/President Biden/i)
 x.com##article:has-text(/Justin Trudeau/i)
 x.com##article:has-text(/Zelensky/i)
+x.com##article:has([data-testid="User-Name"]:has-text(/politics/i))
+x.com##article:has([data-testid="User-Name"]:has-text(/MAGA/i))
 # religion
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/atheism/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/exmuslim/"]
