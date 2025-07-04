@@ -259,6 +259,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/antitrump/"]
 x.com##article:has-text(/Joe Biden/i)
 x.com##article:has-text(/Donald Trump/i)
+x.com##article:has-text(/Trump/i)
 x.com##article:has-text(/Hunter Biden/i)
 x.com##article:has-text(/President Biden/i)
 x.com##article:has-text(/Justin Trudeau/i)
