@@ -282,6 +282,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/members? of congress/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/win back congress/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/politican win/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/if you voted/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/presidential/i))
 # /politics
 
 # religion
