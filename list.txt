@@ -555,6 +555,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NUFC/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mlb/"]
 x.com##article:has([data-testid="User-Name"]:has-text(/NBA/i))
+x.com##article:has([data-testid="User-Name"]:has-text(/UFC/i))
 
 #annoyances
 open.spotify.com##[data-testid="infinite-scroll-list"] [role="presentation"]>div:has([title*=español])
