@@ -257,6 +257,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Presidents/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/scotus/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/antitrump/"]
+##article:has-text(/Joe Biden/i)
 # religion
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/atheism/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/exmuslim/"]
