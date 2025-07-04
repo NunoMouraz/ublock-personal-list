@@ -227,6 +227,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 # politics
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/elections?/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/conservatives?/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/republicans?/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Mark Carney/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Zelensky/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Al Gore/i))
