@@ -620,4 +620,5 @@ x.com##[data-testid="GrokDrawer"]
 x.com##[aria-label="Grok"]
 x.com##[aria-label="Grok actions"]
 x.com##[aria-label="Enhance your post with Grok"]
+x.com##button:has-text(/Profile Summary/i)
 # /annoyances
