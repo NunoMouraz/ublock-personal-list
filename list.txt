@@ -591,6 +591,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/@AthleticClub/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/Los Angeles Lakers/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/Barça/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/Bayern/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/Barcelona/i))
 # /sports
 
 # annoyances
