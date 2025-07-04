@@ -564,4 +564,5 @@ www.reddit.com##shreddit-app:not([pagetype="community"]) .w-full.masthead
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(/Members only/i)
 x.com##[data-testid="inlinePrompt"]:has-text(/go ad-free with premium/i)
 x.com##[data-testid="premium-signup-tab"]
+x.com##[data-testid="super-upsell-UpsellCardRenderProperties"]
 x.com##[aria-label="Grok actions"]
