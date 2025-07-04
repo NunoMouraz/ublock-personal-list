@@ -318,6 +318,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/white people/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/black people/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/hispanic people/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/asian people/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/humanitarian crisis/i))
 # /sad
 
 # social
