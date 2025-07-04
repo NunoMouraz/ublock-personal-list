@@ -560,6 +560,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 x.com##article:has([data-testid="User-Name"]:has-text(/NBA/i))
 x.com##article:has([data-testid="User-Name"]:has-text(/UFC/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/Real Madrid/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/Liverpool FC/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/@AthleticClub/i))
 
 #annoyances
