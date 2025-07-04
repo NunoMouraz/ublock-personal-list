@@ -256,13 +256,12 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/exmuslim/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mahabharata/"]
 # sad
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(passed away))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(you will never be forgotten))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains( ICE ))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(ICE ))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(deport))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(fascism))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:contains(dragged))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/passed away/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/you will never be forgotten/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/\bICE\b/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/deport/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/fascism/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/dragged/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Wellthatsucks/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DogAdvice/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CATHELP/"]
@@ -547,7 +546,7 @@ open.spotify.com##[data-testid="infinite-scroll-list"] [role="presentation"]>div
 open.spotify.com##[data-testid="infinite-scroll-list"] [role="presentation"]>div:has([title*=LATINO])
 open.spotify.com##[data-testid="podcasts-search-entity-shelf"]
 open.spotify.com##[data-testid="episodes-search-entity-shelf"]
-open.spotify.com##[data-encore-id="card"]:contains("By Spotify")
+open.spotify.com##[data-encore-id="card"]:has-text(/By Spotify/i)
 open.spotify.com##[data-testid="top-result-card"]:has([href="/user/spotify"])
 www.reddit.com##shreddit-app:not([pagetype="community"]) .w-full.masthead
-www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:contains(Members only)
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(/Members only/i)
