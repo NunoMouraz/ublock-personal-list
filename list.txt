@@ -558,6 +558,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NUFC/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mlb/"]
 x.com##article:has([data-testid="User-Name"]:has-text(/NBA/i))
+x.com##article:has([data-testid="User-Name"]:has-text(/Football/i))
 x.com##article:has([data-testid="User-Name"]:has-text(/UFC/i))
 x.com##article:has([data-testid="User-Name"]:has-text(/Liverpool FC/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/Real Madrid/i))
