@@ -298,6 +298,10 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/boxingcirclejerk/"]
 x.com##article:has([data-testid="tweetText"]:has-text(/airstrikes?/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/has died at the age/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/white people/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/black people/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/hispanic people/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/asian people/i))
 # social
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AskAGerman"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FameDump"]
