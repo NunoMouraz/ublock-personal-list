@@ -323,6 +323,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/migrant/i))
 # /sad
 
 # social
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indianaviation"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AskAGerman"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FameDump"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GoodAssSub"]
