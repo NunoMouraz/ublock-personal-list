@@ -506,6 +506,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CBSE/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kuttichevuru/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CanadianActresses/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/automobil/"]
 # /social
 
 # sports
