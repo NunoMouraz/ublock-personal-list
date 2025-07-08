@@ -321,6 +321,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/hispanic people/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/asian people/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/humanitarian crisis/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/migrant/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/honor killing/i))
 # /sad
 
 # social
