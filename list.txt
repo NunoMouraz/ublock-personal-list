@@ -21,6 +21,11 @@ laracasts.com##.forum-comment:has-text(/Posted automagically/i)
 mail.google.com##div:has([role="menu"]) [jscontroller]:has([aria-label*="Gemini"])
 mail.google.com##table[role="group"] td:has([data-tooltip*="Alt + H"])
 search.brave.com##.suggestion:has(.ai-generate)
+x.com##[data-testid="GrokDrawer"]
+x.com##[aria-label="Grok"]
+x.com##[aria-label="Grok actions"]
+x.com##[aria-label="Enhance your post with Grok"]
+x.com##button:has-text(/Profile Summary/i)
 # /ai
 
 # finance
