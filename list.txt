@@ -635,9 +635,4 @@ www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-t
 x.com##[data-testid="inlinePrompt"]:has-text(/go ad-free with premium/i)
 x.com##[data-testid="premium-signup-tab"]
 x.com##[data-testid="super-upsell-UpsellCardRenderProperties"]
-x.com##[data-testid="GrokDrawer"]
-x.com##[aria-label="Grok"]
-x.com##[aria-label="Grok actions"]
-x.com##[aria-label="Enhance your post with Grok"]
-x.com##button:has-text(/Profile Summary/i)
 # /annoyances
