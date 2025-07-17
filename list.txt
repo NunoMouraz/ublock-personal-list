@@ -20,7 +20,7 @@ www.google.com##[data-st-tgt="mode"] [role="listitem"]:has-text(/ai mode/i)
 laracasts.com##.forum-comment:has-text(/Posted automagically/i)
 mail.google.com##div:has([role="menu"]) [jscontroller]:has([aria-label*="Gemini"])
 mail.google.com##table[role="group"] td:has([data-tooltip*="Alt + H"])
-##.suggestion:has(.ai-generate)
+search.brave.com##.suggestion:has(.ai-generate)
 # /ai
 
 # finance
