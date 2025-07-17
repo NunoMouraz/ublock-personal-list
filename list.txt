@@ -18,6 +18,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/\bAI\b/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/AI[ -] Generate/i))
 www.google.com##[data-st-tgt="mode"] [role="listitem"]:has-text(/ai mode/i)
 laracasts.com##.forum-comment:has-text(/Posted automagically/i)
+mail.google.com##div:has([role="menu"]) [jscontroller]:has([aria-label*="Gemini"])
 # /ai
 
 # finance
