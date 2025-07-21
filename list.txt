@@ -386,6 +386,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianFashionAddicts"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/bts7"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/50501"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/dealsforindia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AbbottElementary"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianFashionTribe"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AITAH/"]
