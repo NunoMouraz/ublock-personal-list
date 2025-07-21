@@ -344,6 +344,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indianaviation"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AskAGerman"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FameDump"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FilmiFiles"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GoodAssSub"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AskSerbia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Suomi"]
