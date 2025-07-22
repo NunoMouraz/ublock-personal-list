@@ -630,7 +630,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/British GP/i))
 
 # translated
 ecosia.org##[data-test-id="mainline-result-web"]:has([href*="reddit.com"][href*="tl="])
-google.comg###rso>div:has([href*="reddit.com"][href*="tl="])
+google.com###rso>div:has([href*="reddit.com"][href*="tl="])
 # /translated
 
 # annoyances
