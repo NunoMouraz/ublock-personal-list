@@ -27,6 +27,7 @@ x.com##[aria-label="Grok actions"]
 x.com##[aria-label="Enhance your post with Grok"]
 x.com##button:has-text(/Profile Summary/i)
 opencart.com###agentfy:has-text(/\bAI\b/i)
+stackoverflow.com##.nav-links li.ps-relative:has-text(/\bAI\b/i)
 # /ai
 
 # finance
