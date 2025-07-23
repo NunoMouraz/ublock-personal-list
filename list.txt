@@ -639,12 +639,9 @@ google.com###rso>div:has([href*="reddit.com"][href*="tl="])
 # /translated
 
 # annoyances
-open.spotify.com##[data-testid="infinite-scroll-list"] [role="presentation"]>div:has([title*=español])
-open.spotify.com##[data-testid="infinite-scroll-list"] [role="presentation"]>div:has([title*=Español])
-open.spotify.com##[data-testid="infinite-scroll-list"] [role="presentation"]>div:has([title*=ESPAÑOL])
-open.spotify.com##[data-testid="infinite-scroll-list"] [role="presentation"]>div:has([title*=latino])
-open.spotify.com##[data-testid="infinite-scroll-list"] [role="presentation"]>div:has([title*=Latino])
-open.spotify.com##[data-testid="infinite-scroll-list"] [role="presentation"]>div:has([title*=LATINO])
+open.spotify.com##[data-testid="albums-search-entity-shelf"] [data-encore-id="card"]:has-text(/\blatin[oa]?\b/i)
+open.spotify.com##[data-testid="playlists-search-entity-shelf"] [data-encore-id="card"]:has-text(/\blatin[oa]?\b/i)
+open.spotify.com##[data-testid="genres-search-entity-shelf"] [data-encore-id="card"]:has-text(/\blatin[oa]?\b/i)
 open.spotify.com##[data-testid="podcasts-search-entity-shelf"]
 open.spotify.com##[data-testid="episodes-search-entity-shelf"]
 open.spotify.com##[data-encore-id="card"]:has-text(/By Spotify/i)
