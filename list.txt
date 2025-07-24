@@ -28,6 +28,12 @@ x.com##[aria-label="Enhance your post with Grok"]
 x.com##button:has-text(/Profile Summary/i)
 opencart.com###agentfy:has-text(/\bAI\b/i)
 stackoverflow.com##.nav-links li.ps-relative:has-text(/\bAI\b/i)
+www.amazon.com##.nav-rufus-disco
+www.amazon.es##.nav-rufus-disco
+www.amazon.fr##.nav-rufus-disco
+www.amazon.de##.nav-rufus-disco
+www.amazon.it##.nav-rufus-disco
+www.amazon.co.uk##.nav-rufus-disco
 # /ai
 
 # finance
