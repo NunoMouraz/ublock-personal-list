@@ -10,6 +10,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/aivideo/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AIArtwork/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/singularity/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CharacterAI/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/midjourney/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//FacebookAIslop/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/OpenAI/i))
