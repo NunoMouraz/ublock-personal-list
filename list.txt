@@ -411,6 +411,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AITAH/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AmIOverreacting/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AskCanada/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/inIndiannews/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AskUK"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/jammu"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/bigbangtheory/"]
