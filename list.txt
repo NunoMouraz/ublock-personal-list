@@ -507,6 +507,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/playboicarti"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CATpreparation"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Indian_flex"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GloDaP"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/playboycarti/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/popculturechat"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/popheadscirclejerk/"]
