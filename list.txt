@@ -385,6 +385,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ODTU"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ivynash"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ZyadaKuchNai"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ActressGlobal"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/lydiavioletofficial"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/bollywood/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/KatDennings"]
