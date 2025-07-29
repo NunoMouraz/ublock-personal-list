@@ -3,6 +3,7 @@
 ! Description:  
 
 # ai
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CursedAI/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ChatGPT/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LocalLLaMA/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/OpenAI/"]
