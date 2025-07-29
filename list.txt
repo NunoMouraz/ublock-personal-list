@@ -490,6 +490,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndiaTax/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ITookAPicturePH"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/JEENEETards"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DINgore"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/JennaOrtega_"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Kanye"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/KarenFukuhara"]
