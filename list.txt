@@ -57,6 +57,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Finanzen/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DeepFuckingValue/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/WallStreetbetsELITE/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/TheRaceTo10Million/"]
 # /finance
 
 # games
