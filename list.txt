@@ -39,6 +39,23 @@ www.amazon.it##.nav-rufus-disco
 www.amazon.co.uk##.nav-rufus-disco
 # /ai
 
+# annoyances
+open.spotify.com##[data-testid="albums-search-entity-shelf"] [data-encore-id="card"]:has-text(/\blatin[oa]?\b/i)
+open.spotify.com##[data-testid="playlists-search-entity-shelf"] [data-encore-id="card"]:has-text(/\blatin[oa]?\b/i)
+open.spotify.com##[data-testid="genres-search-entity-shelf"] [data-encore-id="card"]:has-text(/\blatin[oa]?\b/i)
+open.spotify.com##[data-testid="podcasts-search-entity-shelf"]
+open.spotify.com##[data-testid="episodes-search-entity-shelf"]
+open.spotify.com##[data-encore-id="card"]:has-text(/By Spotify/i)
+open.spotify.com##[data-testid="top-result-card"]:has([href="/user/spotify"])
+www.reddit.com##shreddit-app:not([pagetype="community"]) .w-full.masthead
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(/Members only/i)
+x.com##[data-testid="inlinePrompt"]:has-text(/go ad-free with premium/i)
+x.com##[data-testid="premium-signup-tab"]
+x.com##[data-testid="super-upsell-UpsellCardRenderProperties"]
+discord.com##li:has(a[href="/shop"])
+discord.com##li:has(a[href="/store"])
+# /annoyances
+
 # finance
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AusFinance"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wallstreetbetsGER"]
@@ -659,18 +676,3 @@ x.com##article:has([data-testid="tweetText"]:has-text(/British GP/i))
 ecosia.org##[data-test-id="mainline-result-web"]:has([href*="reddit.com"][href*="tl="])
 google.com###rso>div:has([href*="reddit.com"][href*="tl="])
 # /translated
-
-# annoyances
-open.spotify.com##[data-testid="albums-search-entity-shelf"] [data-encore-id="card"]:has-text(/\blatin[oa]?\b/i)
-open.spotify.com##[data-testid="playlists-search-entity-shelf"] [data-encore-id="card"]:has-text(/\blatin[oa]?\b/i)
-open.spotify.com##[data-testid="genres-search-entity-shelf"] [data-encore-id="card"]:has-text(/\blatin[oa]?\b/i)
-open.spotify.com##[data-testid="podcasts-search-entity-shelf"]
-open.spotify.com##[data-testid="episodes-search-entity-shelf"]
-open.spotify.com##[data-encore-id="card"]:has-text(/By Spotify/i)
-open.spotify.com##[data-testid="top-result-card"]:has([href="/user/spotify"])
-www.reddit.com##shreddit-app:not([pagetype="community"]) .w-full.masthead
-www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(/Members only/i)
-x.com##[data-testid="inlinePrompt"]:has-text(/go ad-free with premium/i)
-x.com##[data-testid="premium-signup-tab"]
-x.com##[data-testid="super-upsell-UpsellCardRenderProperties"]
-# /annoyances
