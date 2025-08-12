@@ -442,6 +442,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/jammu"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/bigbangtheory/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BlackPink/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianCivicFails/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Bolehland/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wasletztepreis/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BollyBlindsNGossip/"]
