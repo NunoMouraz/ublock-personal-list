@@ -132,6 +132,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 
 # places
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Charlotte"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/perth"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Italia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Rochester"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/longbeach"]
