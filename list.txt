@@ -600,6 +600,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ussoccer/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/cfbmemes/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Commanders/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MLS/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/coys/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Cricket"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CricketShitpost/"]
