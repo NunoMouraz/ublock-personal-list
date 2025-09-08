@@ -402,6 +402,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BlackPeopleTwitter"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/WhitePeopleTwitter"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/jihyo"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianMeme"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/labubu"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mylittlepony"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MalayalamMovies"]
