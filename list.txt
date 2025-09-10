@@ -581,6 +581,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 # sports
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wnba"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NYKnicks"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Torontobluejays"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/INDYCAR"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NYYankees"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/nrl"]
