@@ -38,6 +38,8 @@ www.amazon.fr##.nav-rufus-disco
 www.amazon.de##.nav-rufus-disco
 www.amazon.it##.nav-rufus-disco
 www.amazon.co.uk##.nav-rufus-disco
+# experimental
+reddit.com###comment-tree shreddit-comment:not([collapsed]) [id$="-post-rtjson-content"]:has-text(/—/i)
 # /ai
 
 # annoyances
