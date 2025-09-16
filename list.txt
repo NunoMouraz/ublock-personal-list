@@ -59,7 +59,7 @@ discord.com##li:has(a[href="/shop"])
 discord.com##li:has(a[href="/store"])
 discord.com###guild-header-popout-premium-subscribe
 # youtube livestreams
-www.youtube.com##.ytd-rich-item-renderer:has(.yt-badge-shape--thumbnail-live)
+www.youtube.com##ytd-rich-item-renderer:has(.yt-badge-shape--thumbnail-live)
 # /annoyances
 
 # finance
