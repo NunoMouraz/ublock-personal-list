@@ -40,8 +40,6 @@ www.amazon.it##.nav-rufus-disco
 www.amazon.co.uk##.nav-rufus-disco
 # experimental
 reddit.com###comment-tree shreddit-comment:not([collapsed]) [id$="-post-rtjson-content"]:has-text(/—/i)
-# spotify - now playing section
-spotify.com##[data-right-sidebar-hidden]>div:has(aside[aria-label="Now playing view"])
 # /ai
 
 # annoyances
@@ -62,6 +60,8 @@ discord.com##li:has(a[href="/store"])
 discord.com###guild-header-popout-premium-subscribe
 # youtube livestreams
 www.youtube.com##ytd-rich-item-renderer:has(.yt-badge-shape--thumbnail-live)
+# spotify - now playing section
+spotify.com##[data-right-sidebar-hidden]>div:has(aside[aria-label="Now playing view"])
 # /annoyances
 
 # finance
