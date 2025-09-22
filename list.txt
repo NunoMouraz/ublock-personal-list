@@ -601,6 +601,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/49ers"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Barca/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/baseball/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NFCWestMemeWar/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/benfica/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BoavistaFC/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/buffalobills"]
