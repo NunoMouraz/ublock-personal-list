@@ -379,6 +379,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/honor killing/i))
 # /sad
 
 # social
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GigilAko"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/UniversalBeauty"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/07SFWbeauty"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kpopshots"]
