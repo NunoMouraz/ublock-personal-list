@@ -350,6 +350,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 
 # sad
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/prisoner/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/\bRIP\b/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/attacking/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/passed away/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/you will never be forgotten/i))
