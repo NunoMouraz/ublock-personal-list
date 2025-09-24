@@ -393,6 +393,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ichbin14unddasisttief"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/twilight"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/megantheestallion"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/smosh"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DailyShow"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CelebrityCircle"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indianaviation"]
