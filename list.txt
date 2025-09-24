@@ -92,6 +92,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ZZZ_Romance/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/YelanMains/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SilverWolfMains/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AnantaOfficial/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/gachagaming/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HonkaiStarRail_leaks/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/YaeMiko/"]
