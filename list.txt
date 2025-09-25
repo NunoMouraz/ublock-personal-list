@@ -3,42 +3,42 @@
 ! Description:  
 
 # ai
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CursedAI/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ChatGPT/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LocalLLaMA/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/OpenAI/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/StableDiffusion/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/aivideo/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AIArtwork/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/singularity/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CharacterAI/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/midjourney/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//FacebookAIslop/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/OpenAI/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/ChatGPT/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Genie 3/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/\bAI\b/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/\bGPT\b/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/AI[ -] Generate/i))
-www.google.com##[data-st-tgt="mode"] [role="listitem"]:has-text(/ai mode/i)
 laracasts.com##.forum-comment:has-text(/Posted automagically/i)
 mail.google.com##div:has([role="menu"]) [jscontroller]:has([aria-label*="Gemini"])
 mail.google.com##table[role="group"] td:has([data-tooltip*="Alt + H"])
-search.brave.com##.suggestion:has(.ai-generate)
-x.com##[data-testid="GrokDrawer"]
-x.com##[aria-label="Grok"]
-x.com##[aria-label="Grok actions"]
-x.com##[aria-label="Enhance your post with Grok"]
-x.com##button:has-text(/Profile Summary/i)
 opencart.com###agentfy:has-text(/\bAI\b/i)
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/ChatGPT/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Genie 3/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/OpenAI/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//FacebookAIslop/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AIArtwork/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/aivideo/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CharacterAI/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ChatGPT/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CursedAI/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LocalLLaMA/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/midjourney/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/OpenAI/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/singularity/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/StableDiffusion/"]
+search.brave.com##.suggestion:has(.ai-generate)
 stackoverflow.com##.nav-links li.ps-relative:has-text(/\bAI\b/i)
+www.amazon.co.uk##.nav-rufus-disco
 www.amazon.com##.nav-rufus-disco
+www.amazon.de##.nav-rufus-disco
 www.amazon.es##.nav-rufus-disco
 www.amazon.fr##.nav-rufus-disco
-www.amazon.de##.nav-rufus-disco
 www.amazon.it##.nav-rufus-disco
-www.amazon.co.uk##.nav-rufus-disco
-! experimental
+www.google.com##[data-st-tgt="mode"] [role="listitem"]:has-text(/ai mode/i)
+x.com##[aria-label="Enhance your post with Grok"]
+x.com##[aria-label="Grok actions"]
+x.com##[aria-label="Grok"]
+x.com##[data-testid="GrokDrawer"]
+x.com##article:has([data-testid="tweetText"]:has-text(/\bAI\b/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/\bGPT\b/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/AI[ -] Generate/i))
+x.com##button:has-text(/Profile Summary/i)
+! experimental - if it has "em dash"
 reddit.com###comment-tree shreddit-comment:not([collapsed]) [id$="-post-rtjson-content"]:has-text(/—/i)
 # /ai
 
@@ -46,38 +46,42 @@ reddit.com###comment-tree shreddit-comment:not([collapsed]) [id$="-post-rtjson-c
 discord.com##li:has(a[href="/shop"])
 discord.com##li:has(a[href="/store"])
 discord.com###guild-header-popout-premium-subscribe
-! unwanted sections
+! spotify - unwanted sections
 open.spotify.com##[data-testid="albums-search-entity-shelf"] [data-encore-id="card"]:has-text(/\blatin[oa]?\b/i)
 open.spotify.com##[data-testid="playlists-search-entity-shelf"] [data-encore-id="card"]:has-text(/\blatin[oa]?\b/i)
 open.spotify.com##[data-testid="genres-search-entity-shelf"] [data-encore-id="card"]:has-text(/\blatin[oa]?\b/i)
 open.spotify.com##[data-testid="podcasts-search-entity-shelf"]
 open.spotify.com##[data-testid="episodes-search-entity-shelf"]
-! made by spotify
+! spotify - made by spotify
 open.spotify.com##[data-encore-id="card"]:has-text(/By Spotify/i)
 open.spotify.com##[data-testid="top-result-card"]:has([href="/user/spotify"])
-! now playing section
+! spotify - now playing section
 open.spotify.com##[data-right-sidebar-hidden]>div:has(aside[aria-label="Now playing view"])
-! annoying update banner
+! spotify - annoying update banner
 open.spotify.com##[data-encore-id="banner"]
-! top banner
+! reddit - top banner
 www.reddit.com##shreddit-app:not([pagetype="community"]) .w-full.masthead
-! members only
+! youtube - members only
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(/Members only/i)
-! livestreams
+! youtube - livestreams
 www.youtube.com##ytd-rich-item-renderer:has(.yt-badge-shape--thumbnail-live)
-! premium
+! twitter - premium
 x.com##[data-testid="inlinePrompt"]:has-text(/go ad-free with premium/i)
 x.com##[data-testid="premium-signup-tab"]
 x.com##[data-testid="super-upsell-UpsellCardRenderProperties"]
+! translated websites
+ecosia.org##[data-test-id="mainline-result-web"]:has([href*="reddit.com"][href*="tl="])
+google.com###rso>div:has([href*="reddit.com"][href*="tl="])
 # /annoyances
 
 # finance
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AusFinance"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wallstreetbetsGER"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CryptoCurrency/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CryptoMoonShots"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DeepFuckingValue/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/economicCollapse/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/farialimabets/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Finanzen/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FluentInFinance/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/inflation"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/literaciafinanceira/"]
@@ -85,34 +89,26 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/StockMarketIndia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/stocks"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Superstonk/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wallstreetbets/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/XGramatikInsights/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Finanzen/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DeepFuckingValue/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/WallStreetbetsELITE/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/TheRaceTo10Million/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wallstreetbets/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/WallStreetbetsELITE/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wallstreetbetsGER"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/XGramatikInsights/"]
 # /finance
 
 # games
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/leagueoflegends/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Deltarune/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/StarRailStation/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/TopazMainsHSR/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ZZZ_Romance/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/YelanMains/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SilverWolfMains/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AnantaOfficial/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/gachagaming/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Overwatch/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HonkaiStarRail_leaks/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/YaeMiko/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/arknights/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ArlecchinoMains/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Brawlstars/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ClashOfClans/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ClashRoyale/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/furinamains/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Deltarune/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/EulaMains/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FatuiHQ/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FortNiteBR/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/furinamains/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/gachagaming/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GawrGura/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Genshin_Impact_Leaks/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Genshin_Impact/"]
@@ -120,58 +116,44 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GirlsFrontline2/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Hololive/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HonkaiHusbandos/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HonkaiStarRail_leaks/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HonkaiStarRail/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/houkai3rd/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HuTao_Mains/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/InfinityNikki/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/KafkaMains/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/KukiShinobuMains/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/leagueoflegends/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LeagueOfMemes/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LoveAndDeepspace/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LumineMains/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/marvelrivals/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MobileLegendsGame/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Overwatch_Memes/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Overwatch/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ProjectSekai/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/PTCGP/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/RaidenMains/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SilverWolfMains/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/StarRailStation/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ThanksCyno/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/TokidokiBosottoRoshia/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/WutheringWaves/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ZenlessZoneZero/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ZZZ_Official/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ClashOfClans/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Zenlesszonezeroleaks_/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/WutheringWavesLeaks/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HuTao_Mains/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/RaidenMains/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ArlecchinoMains/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/houkai3rd/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/TopazMainsHSR/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/UmaMusume/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/WutheringWaves/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/WutheringWavesLeaks/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/YaeMiko/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/YelanMains/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ZenlessZoneZero/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Zenlesszonezeroleaks_/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ZZZ_Official/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ZZZ_Romance/"]
 # /games
 
 # places
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Charlotte"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/perth"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Italia"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Rochester"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/longbeach"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ottawa"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/england"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/northernireland"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/vegas"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/pune"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/london"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Finland"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/gujarat"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/cincinnati"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Calgary"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Bengaluru"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/maryland"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Cleveland"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/tampa"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/brisbane"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Omaha"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ahmedabad"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/alaska/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Albany"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LostPlacesDeutschland"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Turkey"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/alberta/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/anchorage"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/argentina/"]
@@ -179,72 +161,96 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/australian"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Austria"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/bayarea"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Bengaluru"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/bihar"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/boston/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Rajasthan/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/brasil/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/brisbane"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/britishcolumbia"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Columbus"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Brooklyn/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/budapest/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Calgary"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/California/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/canada/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Charlotte"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/cincinnati"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Cleveland"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ColoradoSprings"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Columbus"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Connecticut"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/croatia/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/czech/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Dallas/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/dayton"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/de/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/delhi/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Denmark"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/england"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/europe/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Finland"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/florida/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/france"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/navimumbai"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Georgia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/greenland"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/gujarat"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/gurgaon"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LatinoPeopleTwitter"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/hyderabad"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/halifax"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HongKong"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/houston/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/hungary/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/hyderabad"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Idaho"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/illinois/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/india/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mexico/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HongKong"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Indiana/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Iowa/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ipl"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ireland/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Italia"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kansascity"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/karachi/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Kerala/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/korea/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LatinoPeopleTwitter"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/london"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/longbeach"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LosAngeles/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LostPlacesDeutschland"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Maine"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/uttarpradesh"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/malaysia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Manitoba/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/maryland"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/massachusetts"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/melbourne"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/noida"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mexico/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Miami/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Michigan/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/milwaukee/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/minnesota/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/missouri"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/monstreal"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mumbai"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/nashville/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/navimumbai"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Nebraska/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/nederlands"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/newjersey"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Wellington"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kansascity"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/newyork"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/newzealand/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/noida"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/norge/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NorthCarolina"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Northeastindia"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/northernireland"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/nova/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Ohio"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Omaha"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ontario/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/orangecounty/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/oregon/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ottawa"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/pakistan"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/perth"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/philadelphia/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Philippines/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/phoenix/"]
@@ -252,102 +258,99 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/pittsburgh"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/poland"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/PortlandOR"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Roumanie"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/pune"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Quebec/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Rajasthan/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Rochester"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Romania"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Roumanie"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Sacramento"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SaltLakeCity/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SanDiegan/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/sandiego/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/sanfrancisco"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ahmedabad"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/saopaulo/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Scotland"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Seattle/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SeattleWA"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/serbia/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/singapore"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Slovakia"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Slovenia/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/southafrica"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Spokane"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/sweden"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/tampa"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/texas/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Thailand/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/nashville/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Tokyo/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/toronto"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/tulsa"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Turkey"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/tylertx/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/unitedkingdom/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/unitedstatesofindia/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Utah"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/tulsa"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/uttarpradesh"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/vancouver"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/southafrica"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/vegas"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Virginia/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/washdc/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/waterloo"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Spokane"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Wellington"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wisconsin/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/alaska/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SanDiegan/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Nebraska/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/korea/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/norge/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/budapest/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/milwaukee/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/saopaulo/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SaltLakeCity/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/nova/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Tokyo/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Slovenia/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/czech/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/karachi/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Scotland"]
 # /places
 
 # politics
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/elections?/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/conservatives?/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/republicans?/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Mark Carney/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Zelensky/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Al Gore/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/\bMAGA\b/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Trump/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Obama/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Macron/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Elon Musk/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Governors?/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/\bAOC\b/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/\bDOGE\b/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/QuiverQuantitative/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DemocraticSocialism/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BlueskySkeets/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FedJerk/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/\bMAGA\b/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Al Gore/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/conservatives?/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/elections?/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Elon Musk/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Governors?/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Macron/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Mark Carney/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Obama/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/republicans?/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Trump/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Zelensky/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/antitrump/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AOC/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BlueskySkeets/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Conservative/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/conservativeterrorism/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DemocraticSocialism/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/democrats/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FedJerk/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/JoeRogan/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LiberaisDaTreta/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MurderedByAOC/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/politics/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Presidents/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/QuiverQuantitative/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SandersForPresident/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/scotus/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Staiy/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/union/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/WorkReform/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MurderedByAOC/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Presidents/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/scotus/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/antitrump/"]
-x.com##article:has([data-testid="User-Name"]:has-text(/politics/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/Donald Trump/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/Hunter Biden/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/if you voted/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/Joe Biden/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/Justin Trudeau/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/members? of congress/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/politican win/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/President Biden/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/presidential/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/republicans?/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/Trump/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/win back congress/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/Zelensky/i))
 x.com##article:has([data-testid="User-Name"]:has-text(/Elon Musk/i))
 x.com##article:has([data-testid="User-Name"]:has-text(/MAGA/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/Joe Biden/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/Donald Trump/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/Trump/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/Hunter Biden/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/President Biden/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/Justin Trudeau/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/Zelensky/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/republicans?/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/members? of congress/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/win back congress/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/politican win/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/if you voted/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/presidential/i))
+x.com##article:has([data-testid="User-Name"]:has-text(/politics/i))
 # /politics
 
 # religion
@@ -357,287 +360,278 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 # /religion
 
 # sad
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/prisoner/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/\bRIP\b/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/attacking/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/passed away/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/you will never be forgotten/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/\bICE\b/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/deport/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/fascism/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/dragged/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/kidnapping/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/vandalizes/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/\bRIP\b/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/assaults/i))
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Wellthatsucks/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DogAdvice/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/attacking/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/deport/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/dragged/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/fascism/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/kidnapping/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/passed away/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/prisoner/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/vandalizes/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/you will never be forgotten/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/boxingcirclejerk/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CATHELP/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/instant_regret/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/OldManDog/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SeniorCats/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DogAdvice/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GuyCry/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/seniordogs/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/seniorkitties/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HardVideos/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ICE_Raids/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/instant_regret/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/martialarts/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/boxingcirclejerk/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/OldManDog/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SeniorCats/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/seniordogs/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/seniorkitties/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Wellthatsucks/"]
 x.com##article:has([data-testid="tweetText"]:has-text(/airstrikes?/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/has died at the age/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/white people/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/black people/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/hispanic people/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/asian people/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/black people/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/has died at the age/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/hispanic people/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/honor killing/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/humanitarian crisis/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/migrant/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/honor killing/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/white people/i))
 # /sad
 
 # social
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GigilAko"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/UniversalBeauty"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//adultingphwins"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/07SFWbeauty"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kpopshots"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AajMaineJana_Video"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ichbin14unddasisttief"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/twilight"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/megantheestallion"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/smosh"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DailyShow"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CelebrityCircle"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indianaviation"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AskAGerman"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FameDump"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/dankindianmemes"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FilmiFiles"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GoodAssSub"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AskSerbia"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Suomi"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Polska"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/TwentiesIndia"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indianmedschool"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FashionforIndia"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CarsAustralia"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/luftablassen"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/actu_memes"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ThailandTourism"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/PHMotorcycles"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BlackPeopleTwitter"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/WhitePeopleTwitter"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/jihyo"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianMeme"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/labubu"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mylittlepony"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MalayalamMovies"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ODTU"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ivynash"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ZyadaKuchNai"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ActressGlobal"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/lydiavioletofficial"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/bollywood/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/KatDennings"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/JammuandKashmir"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BravoRealHousewives"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/bald"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kollywood"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/lewishamilton"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SophieCunningham_"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/TMKOC"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/popculture"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FilmiFiles"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wirklichgutefrage"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Dashcamindia"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SabrinaCarpenter"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/youtubeindia"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MandirGang"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ShopeePH"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndiasGotLatent"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AskIndianWomen"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/StupidMedia"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianFashionAddicts"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/bts7"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/50501"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/dealsforindia"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AajMaineJana_Video"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AbbottElementary"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianFashionTribe"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ActressGlobal"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/actu_memes"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/adriaarjona/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/adultingphwins"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AITAH/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AmIOverreacting/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/antitrampo"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AskAGerman"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AskCanada/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/inIndiannews/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AskIndianWomen"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AskSerbia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AskUK"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/jammu"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/automobil/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/bald"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/bigbangtheory/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BillBurr"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BlackPeopleTwitter"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BlackPink/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianCivicFails/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Bolehland/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wasletztepreis/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BollyBlindsNGossip/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kpop_uncensored/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/bollywood/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/bollywoodmemes/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/adriaarjona/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/WeTheFifth/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BollywoodMusic"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BravoRealHousewives"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BrexitMemes/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Btechtards"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Falschparker"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/bts7"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CanadianActresses/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CaptainAmerica"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CarsAustralia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CarsIndia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CasualIreland"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CasualUK"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CATpreparation"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CBSE/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CelebBlackandWhites"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CelebEvents"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CelebLBDs"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CelebPortraits"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CelebrityCircle"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/chappellroan"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/charlixcx/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ChikaPH"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/conan/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Costco/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DailyShow"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/dankindianmemes"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Dashcamindia"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DC_Cinematic"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/dealsforindia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DesiVideoMemes/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/deutschememes/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/developersIndia"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DINgore"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/dokibird"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/dualipa"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/EhBuddyHoser/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianHistory/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MemesEnEspanol/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Eminem/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianWorkplace/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/EmmaWatson"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Falschparker"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FameDump"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FashionforIndia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Fauxmoi/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/fednews"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FilmiFiles"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FilmiFiles"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/funnyIndia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/furry"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GigilAko"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GloDaP"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GoodAssSub"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GraceCFulton"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GreatBritishMemes/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Grimes"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Gulong/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HayleyAtwell"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/funnyIndia"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/newsPH"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IASIP"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ich_iel"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ichbin14unddasisttief"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ichbin40undSchwurbler"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ik_ihe"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/india_tourism"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//adultingphwins"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indiameme/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/deutschememes/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Indian_flex"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indianaviation"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indianbikes"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/antitrampo"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SneakersIndia"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/PHBookClub"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianCivicFails/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indianews"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianFashionAddicts"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianFashionTribe"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianGaming"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SecretsOfMormonWives"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianStockMarket"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Kantenhausen"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianHistory/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indianmedschool"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianMeme"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indianmemer/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianMeyMeys/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/makati/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianPets"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/VeganDE"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indianrailways/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mauerstrassenwetten/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianStockMarket"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianStreetBets"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/PinoyVloggers"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianTeenagers"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ichbin40undSchwurbler"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/adultingphwins"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianWorkplace/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndiasGotLatent"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indiasocial/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MayNagChat/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndiaSpeaks"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/katseye"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndiaTax/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndiaTech"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/inIndiannews/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/InstaCelebsGossip"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ITookAPicturePH"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ivynash"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/jammu"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/JammuandKashmir"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/JEENEETards"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DINgore"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/JennaOrtega_"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/jihyo"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Kantenhausen"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Kanye"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/KarenFukuhara"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Kashmiri/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/KatDennings"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/katseye"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/KendrickLamar/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/KiernanBrennanShipka"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kollywood"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kpop_uncensored/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kpop/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kpopGirlsMob"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kpopshots"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kuttichevuru/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/labubu"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/lewishamilton"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LindaCardellini/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LiveFromNewYork"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LoveIslandTV/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LoveIslandUSA"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/luftablassen"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/lydiavioletofficial"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/makati/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MalayalamMovies"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MandirGang"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Marvel"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/marvelmemes"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mauerstrassenwetten/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MayNagChat/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/megantheestallion"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MeJulge/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MemesEnEspanol/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mylittlepony"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NeuroSama/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NewJeans"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/newsPH"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ODTU"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ParkJihyo"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/PHBookClub"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/PHMotorcycles"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Phoebeisginger/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/PinoyVloggers"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/playboicarti"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CATpreparation"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Indian_flex"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GloDaP"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/playboycarti/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Polska"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/popculture"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/popculture"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/popculturechat"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/popheadscirclejerk/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Kashmiri/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/rance"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/rupaulsdragrace"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SabrinaCarpenter"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SaimanSays"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SecretsOfMormonWives"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/shitpostBR"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ShitpostBR"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ShopeePH"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Smilepleasse"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/smosh"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SneakersIndia"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SophieCunningham_"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Stonetossingjuice"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/StupidMedia"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Suomi"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/TaylorSwift/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/TeenIndia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/TeenMomOGandTeenMom2/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ThailandTourism"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/TheWeeknd/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/TMKOC"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/tollywood"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/travisandtaylor/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/TwentiesIndia"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/twilight"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/UKJobs"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/UniversalBeauty"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/usajobs"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/InstaCelebsGossip"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/rance"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CaptainAmerica"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LiveFromNewYork"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndiaTech"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Grimes"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/popculture"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DC_Cinematic"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BillBurr"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ShitpostBR"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/dualipa"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CelebBlackandWhites"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ParkJihyo"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/marvelmemes"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/indianews"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/VeganDE"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wasletztepreis/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/WeTheFifth/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/whatthefrockk"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CBSE/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kuttichevuru/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CanadianActresses/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/automobil/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Phoebeisginger/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/WhitePeopleTwitter"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wirklichgutefrage"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/youtubeindia"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ZyadaKuchNai"]
 # /social
 
 # sports
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/minnesotavikings"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wnba"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NYKnicks"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Torontobluejays"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/INDYCAR"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NYYankees"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/nrl"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AEWOfficial"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NBAEastMemeWar"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianCricket"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/chelseafc"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/RCB"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Mariners"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/49ers"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/actualcricketshitpost/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AEWOfficial"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AFL/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Barca/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/baseball/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NFCWestMemeWar/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/benfica/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Chargers/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BoavistaFC/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/buffalobills"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CalgaryFlames/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/canucks/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CFB/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ussoccer/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/cfbmemes/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Championship/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Chargers/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/chelseafc"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CHIBears/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CollegeBasketball/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Commanders/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MLS/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/coys/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Cricket"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CricketShitpost/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Championship/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DeathrattlePorn/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/denvernuggets"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/detroitlions"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/fcporto/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/actualcricketshitpost/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/formula1/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/formuladank/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/futebol"]
@@ -645,70 +639,74 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/hockey/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/hockeymemes"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndiaCricket/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianCricket"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/INDYCAR"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/iRacing/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/KansasCityChiefs"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/lakers/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/leafs"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LiverpoolFC/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ManchesterUnited/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Mariners"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Mavericks/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MCFC/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/minnesotavikings"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mlb/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MLS/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MMA/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mmamemes"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/motogp/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/nba/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NBAEastMemeWar"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Nbamemes/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NBATalk"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NewYorkMets"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NFCEastMemeWar/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NFCNorthMemeWar/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NFCWestMemeWar/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NFLv2/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/nhl/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/nrl"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NUFC/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NYGiants"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NYKnicks"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NYYankees"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/olympics/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Patriots"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/philly"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/PrimeiraLiga/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/PWHL/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/RCB"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/realmadrid/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/reddevils/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/soccercirclejerk/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/denvernuggets"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SportingCP/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/sports/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SquaredCircle"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/tennis/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Torontobluejays"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ufc/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ussoccer/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/warriors"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wec/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AFL/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wnba"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Wrasslin/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CalgaryFlames/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/PWHL/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Nbamemes/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/tennis/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CollegeBasketball/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NFCNorthMemeWar/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ManchesterUnited/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/NUFC/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mlb/"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CHIBears/"]
-x.com##article:has([data-testid="User-Name"]:has-text(/AFL/i))
-x.com##article:has([data-testid="User-Name"]:has-text(/NBA/i))
-x.com##article:has([data-testid="User-Name"]:has-text(/Football/i))
-x.com##article:has([data-testid="User-Name"]:has-text(/UFC/i))
-x.com##article:has([data-testid="User-Name"]:has-text(/Liverpool FC/i))
-x.com##article:has([data-testid="User-Name"]:has-text(/esports/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/Real Madrid/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/@AthleticClub/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/@EASPORTSFC/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/Los Angeles Lakers/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/Barça/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/Bayern/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/Barcelona/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/Juventus/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/Arsenal/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/AS Monaco/i))
-x.com##article:has([data-testid="tweetText"]:has-text(/Liverpool/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/Barça/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/Barcelona/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/Bayern/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/British GP/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/Juventus/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/Liverpool/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/Los Angeles Lakers/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/Real Madrid/i))
+x.com##article:has([data-testid="User-Name"]:has-text(/AFL/i))
+x.com##article:has([data-testid="User-Name"]:has-text(/esports/i))
+x.com##article:has([data-testid="User-Name"]:has-text(/Football/i))
+x.com##article:has([data-testid="User-Name"]:has-text(/Liverpool FC/i))
+x.com##article:has([data-testid="User-Name"]:has-text(/NBA/i))
+x.com##article:has([data-testid="User-Name"]:has-text(/UFC/i))
 # /sports
-
-# translated
-ecosia.org##[data-test-id="mainline-result-web"]:has([href*="reddit.com"][href*="tl="])
-google.com###rso>div:has([href*="reddit.com"][href*="tl="])
-# /translated
