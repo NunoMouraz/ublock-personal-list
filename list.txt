@@ -88,6 +88,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 
 # games
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/leagueoflegends/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Deltarune/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/StarRailStation/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/TopazMainsHSR/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ZZZ_Romance/"]
