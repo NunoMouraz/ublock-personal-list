@@ -38,32 +38,37 @@ www.amazon.fr##.nav-rufus-disco
 www.amazon.de##.nav-rufus-disco
 www.amazon.it##.nav-rufus-disco
 www.amazon.co.uk##.nav-rufus-disco
-# experimental
+! experimental
 reddit.com###comment-tree shreddit-comment:not([collapsed]) [id$="-post-rtjson-content"]:has-text(/—/i)
 # /ai
 
 # annoyances
+discord.com##li:has(a[href="/shop"])
+discord.com##li:has(a[href="/store"])
+discord.com###guild-header-popout-premium-subscribe
+! unwanted sections
 open.spotify.com##[data-testid="albums-search-entity-shelf"] [data-encore-id="card"]:has-text(/\blatin[oa]?\b/i)
 open.spotify.com##[data-testid="playlists-search-entity-shelf"] [data-encore-id="card"]:has-text(/\blatin[oa]?\b/i)
 open.spotify.com##[data-testid="genres-search-entity-shelf"] [data-encore-id="card"]:has-text(/\blatin[oa]?\b/i)
 open.spotify.com##[data-testid="podcasts-search-entity-shelf"]
 open.spotify.com##[data-testid="episodes-search-entity-shelf"]
+! made by spotify
 open.spotify.com##[data-encore-id="card"]:has-text(/By Spotify/i)
 open.spotify.com##[data-testid="top-result-card"]:has([href="/user/spotify"])
+! now playing section
+open.spotify.com##[data-right-sidebar-hidden]>div:has(aside[aria-label="Now playing view"])
+! annoying update banner
+open.spotify.com##[data-encore-id="banner"]
+! top banner
 www.reddit.com##shreddit-app:not([pagetype="community"]) .w-full.masthead
+! members only
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(/Members only/i)
+! livestreams
+www.youtube.com##ytd-rich-item-renderer:has(.yt-badge-shape--thumbnail-live)
+! premium
 x.com##[data-testid="inlinePrompt"]:has-text(/go ad-free with premium/i)
 x.com##[data-testid="premium-signup-tab"]
 x.com##[data-testid="super-upsell-UpsellCardRenderProperties"]
-discord.com##li:has(a[href="/shop"])
-discord.com##li:has(a[href="/store"])
-discord.com###guild-header-popout-premium-subscribe
-# youtube livestreams
-www.youtube.com##ytd-rich-item-renderer:has(.yt-badge-shape--thumbnail-live)
-# spotify - now playing section
-open.spotify.com##[data-right-sidebar-hidden]>div:has(aside[aria-label="Now playing view"])
-# spotify - annoying update banner
-open.spotify.com##[data-encore-id="banner"]
 # /annoyances
 
 # finance
