@@ -61,7 +61,9 @@ discord.com###guild-header-popout-premium-subscribe
 # youtube livestreams
 www.youtube.com##ytd-rich-item-renderer:has(.yt-badge-shape--thumbnail-live)
 # spotify - now playing section
-spotify.com##[data-right-sidebar-hidden]>div:has(aside[aria-label="Now playing view"])
+open.spotify.com##[data-right-sidebar-hidden]>div:has(aside[aria-label="Now playing view"])
+# spotify - annoying update banner
+open.spotify.com##[data-encore-id="banner"]
 # /annoyances
 
 # finance
