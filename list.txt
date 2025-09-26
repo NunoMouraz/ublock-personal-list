@@ -114,6 +114,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Genshin_Impact/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GenshinImpact/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GirlsFrontline2/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GlobalOffensive/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Hololive/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HonkaiHusbandos/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HonkaiStarRail_leaks/"]
