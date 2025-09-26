@@ -137,6 +137,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/PTCGP/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/RaidenMains/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/SilverWolfMains/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Silksong/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/StarRailStation/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ThanksCyno/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/TokidokiBosottoRoshia/"]
