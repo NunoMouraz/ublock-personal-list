@@ -127,6 +127,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LeagueOfMemes/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LoveAndDeepspace/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LumineMains/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/magicTCG/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/marvelrivals/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MobileLegendsGame/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Overwatch_Memes/"]
