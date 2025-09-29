@@ -97,6 +97,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 # /finance
 
 # games
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/btd6/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AnantaOfficial/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/arknights/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ArlecchinoMains/"]
