@@ -104,6 +104,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Brawlstars/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ClashOfClans/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ClashRoyale/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/WorldofTanks/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Deltarune/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/EulaMains/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FatuiHQ/"]
