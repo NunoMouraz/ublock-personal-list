@@ -154,6 +154,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 # /games
 
 # places
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/auckland"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ahmedabad"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/alaska/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Albany"]
