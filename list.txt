@@ -323,6 +323,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="ti
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/Zelensky/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/antitrump/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AOC/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Kommunismus/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BlueskySkeets/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Conservative/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/conservativeterrorism/"]
