@@ -440,6 +440,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BravoRealHousewives"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BrexitMemes/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Btechtards"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CriticalThinkingIndia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/bts7"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CanadianActresses/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CaptainAmerica"]
