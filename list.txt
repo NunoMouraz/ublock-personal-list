@@ -306,6 +306,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/waterloo"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Wellington"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wisconsin/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Maharashtra/"]
 # /places
 
 # politics
