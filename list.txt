@@ -409,6 +409,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/white people/i))
 # /sad
 
 # social
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//biggboss"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//DCU_"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//taskmaster"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//adultingphwins"]
