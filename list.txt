@@ -53,7 +53,7 @@ open.spotify.com##[data-testid="genres-search-entity-shelf"] [data-encore-id="ca
 open.spotify.com##[data-testid="podcasts-search-entity-shelf"]
 open.spotify.com##[data-testid="episodes-search-entity-shelf"]
 ! spotify - made by spotify
-open.spotify.com##[data-encore-id="card"]:has-text(/By Spotify/i)
+open.spotify.com##div>[data-encore-id="card"]:has-text(/By Spotify/i)
 open.spotify.com##[data-testid="top-result-card"]:has([href="/user/spotify"])
 ! spotify - now playing section
 open.spotify.com##[data-right-sidebar-hidden]>div:has(aside[aria-label="Now playing view"])
