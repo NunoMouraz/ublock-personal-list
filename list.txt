@@ -367,6 +367,7 @@ x.com##article:has([data-testid="User-Name"]:has-text(/politics/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/atheism/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/exmuslim/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mahabharata/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AtheisminKerala/"]
 # /religion
 
 # sad
