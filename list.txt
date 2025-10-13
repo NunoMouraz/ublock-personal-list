@@ -411,6 +411,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/\biq score\b/i))
 # /sad
 
 # social
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//selfie"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//IndiaCareers"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//KpopDemonhunters"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//biggboss"]
