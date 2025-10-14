@@ -411,13 +411,14 @@ x.com##article:has([data-testid="tweetText"]:has-text(/\biq score\b/i))
 # /sad
 
 # social
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//selfie"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//IndiaCareers"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//KpopDemonhunters"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//biggboss"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//DCU_"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//taskmaster"]
-reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r//adultingphwins"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianFoodPhotos"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/selfie"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndiaCareers"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/KpopDemonhunters"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/biggboss"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DCU_"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/taskmaster"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/adultingphwins"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/07SFWbeauty"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/50501"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AajMaineJana_Video"]
