@@ -414,6 +414,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/humanitarian crisis/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/migrant/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/white people/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/\biq score\b/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/\bICE\b/))
 # /sad
 
 # social
