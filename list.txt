@@ -742,4 +742,5 @@ x.com##article:has([data-testid="User-Name"]:has-text(/Football/i))
 x.com##article:has([data-testid="User-Name"]:has-text(/Liverpool FC/i))
 x.com##article:has([data-testid="User-Name"]:has-text(/NBA/i))
 x.com##article:has([data-testid="User-Name"]:has-text(/UFC/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/\bSuper Bowl\b/i))
 # /sports
