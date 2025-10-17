@@ -413,6 +413,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/\biq score\b/i))
 # /sad
 
 # social
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mina_irl"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/EllaLangley"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianFoodPhotos"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/selfie"]
