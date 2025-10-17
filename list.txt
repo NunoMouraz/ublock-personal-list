@@ -40,6 +40,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/AI[ -] Generate/i))
 x.com##button:has-text(/Profile Summary/i)
 ! experimental - if it has "em dash"
 reddit.com###comment-tree shreddit-comment:not([collapsed]) [id$="-post-rtjson-content"]:has-text(/—/i)
+x.com##article:has([data-testid="User-Name"]:has-text(/—/i))
 # /ai
 
 # annoyances
