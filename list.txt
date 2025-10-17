@@ -367,6 +367,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/Elon Musk/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/MAGA/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/politics/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/senator/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/\bAndrew Cuomo\b/i))
 # /politics
 
 # religion
@@ -374,6 +375,8 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/exmuslim/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/mahabharata/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AtheisminKerala/"]
+x.com##article:has([data-testid="tweetText"]:has-text(/christian/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/muslim/i))
 # /religion
 
 # sad
