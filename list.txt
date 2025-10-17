@@ -365,6 +365,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/Zelensky/i))
 x.com##article:has([data-testid="User-Name"]:has-text(/Elon Musk/i))
 x.com##article:has([data-testid="User-Name"]:has-text(/MAGA/i))
 x.com##article:has([data-testid="User-Name"]:has-text(/politics/i))
+x.com##article:has([data-testid="User-Name"]:has-text(/senator/i))
 # /politics
 
 # religion
