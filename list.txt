@@ -368,6 +368,8 @@ x.com##article:has([data-testid="tweetText"]:has-text(/MAGA/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/politics/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/senator/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/\bAndrew Cuomo\b/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/\bleft-wing\b/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/\bright-wing\b/i))
 # /politics
 
 # religion
@@ -746,4 +748,5 @@ x.com##article:has([data-testid="User-Name"]:has-text(/Liverpool FC/i))
 x.com##article:has([data-testid="User-Name"]:has-text(/NBA/i))
 x.com##article:has([data-testid="User-Name"]:has-text(/UFC/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/\bSuper Bowl\b/i))
+x.com##article:has([data-testid="tweetText"]:has-text(/\bman united\b/i))
 # /sports
