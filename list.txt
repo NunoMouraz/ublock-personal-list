@@ -80,6 +80,7 @@ google.com###rso>div:has([href*="reddit.com"][href*="tl="])
 # /annoyances
 
 # finance
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/10xPennyStocks"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/smallstreetbets"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/WalllStreetBets"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AusFinance"]
