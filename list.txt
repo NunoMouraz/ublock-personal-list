@@ -4,6 +4,7 @@
 
 # ai
 laracasts.com##.forum-comment:has-text(/Posted automagically/i)
+google.com##button:has-text(/\bAI\b/i)
 mail.google.com##div:has([role="menu"]) [jscontroller]:has([aria-label*="Gemini"])
 mail.google.com##table[role="group"] td:has([data-tooltip*="Alt + H"])
 opencart.com###agentfy:has-text(/\bAI\b/i)
