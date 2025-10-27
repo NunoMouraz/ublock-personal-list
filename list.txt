@@ -70,6 +70,7 @@ www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-t
 www.youtube.com##ytd-rich-item-renderer:has(.yt-badge-shape--thumbnail-live)
 ! youtube - shorts
 www.youtube.com##grid-shelf-view-model:has-text(/shorts/i)
+www.youtube.com##ytd-rich-section-renderer:has-text(/Shorts/i)
 ! youtube - ai summary
 www.youtube.com###expandable-metadata:has-text(/Summary/i)
 ! twitter - premium
