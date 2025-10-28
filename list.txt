@@ -48,6 +48,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/—/i))
 # /ai
 
 # annoyances
+! discord - premium
 discord.com##li:has(a[href="/shop"])
 discord.com##li:has(a[href="/store"])
 discord.com###guild-header-popout-premium-subscribe
