@@ -3,6 +3,8 @@
 ! Description:  
 
 # ai
+duckduckgo.com##li:has-text(/Search Assist/i)
+duckduckgo.com##a:has-text(/Duck.ai/i)
 laracasts.com##.forum-comment:has-text(/Posted automagically/i)
 google.com##button:has-text(/\bAI\b/i)
 mail.google.com##div:has([role="menu"]) [jscontroller]:has([aria-label*="Gemini"])
