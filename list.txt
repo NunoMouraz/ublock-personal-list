@@ -42,6 +42,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/\bAI\b/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/\bGPT\b/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/AI[ -] Generate/i))
 x.com##button:has-text(/Profile Summary/i)
+###article-header-page-actions > button:has-text(/Ask Learn/i)
 ! experimental - if it has "em dash"
 reddit.com###comment-tree shreddit-comment:not([collapsed]) [id$="-post-rtjson-content"]:has-text(/—/i)
 x.com##article:has([data-testid="tweetText"]:has-text(/—/i))
