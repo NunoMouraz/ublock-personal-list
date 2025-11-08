@@ -68,6 +68,8 @@ open.spotify.com##[data-right-sidebar-hidden]>div:has(aside[aria-label="Now play
 open.spotify.com##[data-encore-id="banner"]
 ! reddit - top banner
 www.reddit.com##shreddit-app:not([pagetype="community"]) .w-full.masthead
+! reddit - games drawer
+www.reddit.com##[noun="games_drawer"]
 ! youtube - members only
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(/Members only/i)
 ! youtube - livestreams
