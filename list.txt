@@ -440,6 +440,10 @@ x.com##article:has([data-testid="tweetText"]:has-text(/\bICE\b/))
 # /sad
 
 # social
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/BlackPeopleofReddit"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/WhitePeopleofReddit"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AsianPeopleofReddit"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/LatinoPeopleofReddit"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Fitness_India"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/sabrinacarpenterCLUB"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ElizabethOlsenCircle"]
