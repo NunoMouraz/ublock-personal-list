@@ -387,6 +387,8 @@ x.com##article:has([data-testid="tweetText"]:has-text(/senator/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/\bAndrew Cuomo\b/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/\bleft-wing\b/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/\bright-wing\b/i))
+! more often that not its politics
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/\bMurderedByWords\b/i))
 # /politics
 
 # religion
