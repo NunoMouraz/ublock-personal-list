@@ -59,6 +59,7 @@ open.spotify.com##[data-testid="playlists-search-entity-shelf"] [data-encore-id=
 open.spotify.com##[data-testid="genres-search-entity-shelf"] [data-encore-id="card"]:has-text(/\blatin[oa]?\b/i)
 open.spotify.com##[data-testid="podcasts-search-entity-shelf"]
 open.spotify.com##[data-testid="episodes-search-entity-shelf"]
+open.spotify.com##[data-testid="component-shelf"][aria-label="Episodes you might like"]
 ! spotify - made by spotify
 open.spotify.com##div:has(>[data-encore-id="card"]:has-text(/By Spotify/i))
 open.spotify.com##[data-testid="top-result-card"]:has([href="/user/spotify"])
