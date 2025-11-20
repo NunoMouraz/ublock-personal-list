@@ -421,6 +421,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/UkraineWarVideoReport/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CATHELP/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DogAdvice/"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/MuayThai/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GuyCry/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HardVideos/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ICE_Raids/"]
