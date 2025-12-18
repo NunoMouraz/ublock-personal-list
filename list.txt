@@ -461,6 +461,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndiansBeingBros"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/celebritylocked"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/bollynewsandgossips"]
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CelebrityBobHaircut"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Indiedogs"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ThirtiesIndia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GenXVibes"]
