@@ -120,6 +120,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 # /finance
 
 # games
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/HertaMains/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Columbina_Mains/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/DispatchAdHoc/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ArcRaiders/"]
