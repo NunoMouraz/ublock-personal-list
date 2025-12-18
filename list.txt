@@ -456,6 +456,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/\bICE\b/))
 # /sad
 
 # social
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/KanalHumor"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndiansBeingBros"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/celebritylocked"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/bollynewsandgossips"]
