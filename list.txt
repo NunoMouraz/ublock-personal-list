@@ -701,6 +701,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 # /social
 
 # sports
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FantasyPL"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/cowboys"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/49ers"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/actualcricketshitpost/"]
