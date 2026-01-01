@@ -49,6 +49,7 @@ www.youtube.com##body:has(.ytwHowThisWasMadeSectionViewModelBodyText:has-text(/d
 ! experimental - if it has "em dash"
 reddit.com###comment-tree shreddit-comment:not([collapsed]) [id$="-post-rtjson-content"]:has-text(/—/i)
 x.com##article:has([data-testid="tweetText"]:has-text(/—/i))
+store.steampowered.com##.review_box:has-text(/—/i)
 # /ai
 
 # annoyances
