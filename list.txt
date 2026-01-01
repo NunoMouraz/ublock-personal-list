@@ -88,6 +88,7 @@ www.youtube.com###expandable-metadata:has-text(/Summary/i)
 ! proton - mail plus
 mail.proton.me##.spotlight:has-text(/Get Mail Plus/i)
 mail.proton.me##.header [class*="button-promotion"]
+mail.proton.me##.items-column-list-container .flex-column:has(button:has-text(/Upgrade/i))
 ! twitter - premium
 x.com##[data-testid="inlinePrompt"]:has-text(/go ad-free with premium/i)
 x.com##[data-testid="premium-signup-tab"]
