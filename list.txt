@@ -85,6 +85,8 @@ www.youtube.com##ytd-rich-section-renderer:has-text(/Shorts/i)
 www.youtube.com##ytd-video-renderer:has(.yt-badge-shape__text:has-text(/shorts/i))
 ! youtube - ai summary
 www.youtube.com###expandable-metadata:has-text(/Summary/i)
+! proton - mail plus
+mail.proton.me##.spotlight:has-text(/Get Mail Plus/i)
 ! twitter - premium
 x.com##[data-testid="inlinePrompt"]:has-text(/go ad-free with premium/i)
 x.com##[data-testid="premium-signup-tab"]
