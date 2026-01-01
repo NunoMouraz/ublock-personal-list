@@ -87,6 +87,7 @@ www.youtube.com##ytd-video-renderer:has(.yt-badge-shape__text:has-text(/shorts/i
 www.youtube.com###expandable-metadata:has-text(/Summary/i)
 ! proton - mail plus
 mail.proton.me##.spotlight:has-text(/Get Mail Plus/i)
+mail.proton.me##.header [class*="button-promotion"]
 ! twitter - premium
 x.com##[data-testid="inlinePrompt"]:has-text(/go ad-free with premium/i)
 x.com##[data-testid="premium-signup-tab"]
