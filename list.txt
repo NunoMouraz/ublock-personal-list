@@ -424,6 +424,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="ti
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/\bRIP\b/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/assaults/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/attacking/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/bullying/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/deport/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/dragged/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/fascism/i))
