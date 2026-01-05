@@ -347,6 +347,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 # /places
 
 # politics
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/\bNicolás Maduro\b/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/\bSecretary of State\b/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/\bAOC\b/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/\bDOGE\b/i))
