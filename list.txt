@@ -713,6 +713,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 # /social
 
 # sports
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/steelers"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/GreenBayPackers"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/FantasyPL"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/cowboys"]
