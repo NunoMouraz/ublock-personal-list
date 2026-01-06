@@ -7,6 +7,7 @@ ads.google.com####.icon-ads-guide
 duckduckgo.com##li:has-text(/Search Assist/i)
 duckduckgo.com##a:has-text(/Duck.ai/i)
 laracasts.com##.forum-comment:has-text(/Posted automagically/i)
+laracasts.com##.forum-reply:has-text(/LaryAI/)
 google.com##button:has-text(/\bAI\b/i)
 mail.google.com##div:has([role="menu"]) [jscontroller]:has([aria-label*="Gemini"])
 mail.google.com##table[role="group"] td:has([data-tooltip*="Alt + H"])
