@@ -467,6 +467,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/\bICE\b/))
 # /sad
 
 # social
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/kardashians"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/incredible_indians"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/pluribustv"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/CharleenWeiss"]
