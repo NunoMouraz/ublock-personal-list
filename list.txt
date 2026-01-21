@@ -469,6 +469,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/\bICE\b/))
 # /sad
 
 # social
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/OldSchoolCool"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Over30Selfie"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndianFocus"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/IndiaPulse_"]
