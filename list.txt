@@ -822,6 +822,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/wnba"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/Wrasslin/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/\bSuper Bowl\b/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/\bhalftime show\b/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/@AthleticClub/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/@EASPORTSFC/i))
 x.com##article:has([data-testid="tweetText"]:has-text(/Arsenal/i))
