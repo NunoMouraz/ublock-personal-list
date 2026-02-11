@@ -368,6 +368,7 @@ reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="ti
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/\bZelensky\b/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/\bGovernment\b/i))
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post:has([slot="title"]:has-text(/\bSenator\b/i))
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/circled/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ProgressiveHQ/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/antitrump/"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/AOC/"]
