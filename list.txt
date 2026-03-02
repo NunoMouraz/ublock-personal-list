@@ -470,6 +470,7 @@ x.com##article:has([data-testid="tweetText"]:has-text(/\bICE\b/))
 # /sad
 
 # social
+reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/StartUpIndia"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/dailyChismisPh"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/ElleFanningCircle"]
 reddit.com##shreddit-app:not([pagetype="community"]) shreddit-post[permalink^="/r/OttawaSenators"]
