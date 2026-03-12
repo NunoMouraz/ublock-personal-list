@@ -52,6 +52,8 @@ store.steampowered.com##.page_content_ctn:has(.game_area_description:has-text(/A
 reddit.com###comment-tree shreddit-comment:not([collapsed]) [id$="-post-rtjson-content"]:has-text(/—/i)
 x.com##article:has([data-testid="tweetText"]:has-text(/—/i))
 store.steampowered.com##.review_box:has-text(/—/i)
+! grok
+x.com##[data-testid="cellInnerDiv"]:has-text(/@grok/i)
 # /ai
 
 # annoyances
